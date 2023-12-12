@@ -41,7 +41,6 @@ public class MemberServiceTest {
         // then
         em.flush(); // insert query를 보고 싶을 때 사용, @Rollback을 설정하면 rollback이 된다.
         assertEquals(member, memberRepository.findOne(savedId));
-
     }
 
     @Test
