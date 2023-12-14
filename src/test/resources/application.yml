@@ -1,7 +1,7 @@
 # spring이 주석처리 되어있는 경우, h2의 메모리 DB를 사용하게 된다.
 # test 폴더에 있는 application.yml이 우선된다.
 
-spring:
+# spring:
   # datasource:
   #     url: jdbc:h2:mem:test
   #     username: sa

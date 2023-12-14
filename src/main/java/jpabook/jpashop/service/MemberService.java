@@ -68,8 +68,8 @@ public class MemberService {
      * 
      * @return
      */
-    public void findMembers() {
-        memberRepository.findAll();
+    public List<Member> findMembers() {
+        return memberRepository.findAll();
     }
 
     /**
